@@ -10,7 +10,7 @@ sed -i 's/freetype2\/freetype/freetype2/' ../../../libs/openFrameworks/graphics/
 cd ../../../apps
 mkdir soixante
 cd soixante
-git clone git@github.com:achiarifman/openTSPS.git
+git clone https://github.com/achiarifman/openTSPS.git
 cd openTSPS
 bash clone_addons.sh
 sudo install_dependencies.sh
